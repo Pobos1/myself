@@ -113,7 +113,7 @@ export default function Home() {
             </div>
             <div className="w-full ">
               <div className=" px-12">
-                <p className="text-center text-sm text-black py-8 px-4">
+                <p className="text-center text-sm text-black py-8">
                   Я занимаюсь проведением и организацией самых разных
                   мероприятий. Это могут быть свадьбы, юбилеи, корпоративы,
                   выпускные вечера или просто веселые вечеринки.

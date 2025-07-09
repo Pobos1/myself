@@ -9,7 +9,7 @@ export const Verticaltabl: React.FC<{
   <div className="py-3">
     <div className="border-b-2 border-black py-3">
       <div className="flex justify-between items-center w-full px-3">
-        <p className="mx-auto px-15 text-black text-4xl ">{props.title}</p>
+        <p className="mx-auto px-16 text-black text-4xl ">{props.title}</p>
         <p className=" text-black text-xl">{props.description}</p>
       </div>
     </div>
@@ -21,7 +21,7 @@ export const Verticaltabl: React.FC<{
     </div>
 
     <div className="flex justify-around items-center w-full py-6 px-3">
-      <p className="px-2.5 text-black text-4xl ">{props.title3}</p>
+      <p className="px-3 text-black text-4xl ">{props.title3}</p>
       <p className=" text-black text-xl me-auto">{props.description3}</p>
     </div>
   </div>
