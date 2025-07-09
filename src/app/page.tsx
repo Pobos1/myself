@@ -170,7 +170,7 @@ export default function Home() {
               <ImageCarousel />
             </div>
             <div className=" flex flex-row ">
-              <div className="rounded-xl w-35 h-40 bg-[url(/square.png)] bg-cover bg-center shrink-0 me-3 mt-4"></div>
+              <div className="rounded-xl w-35 h-50 bg-[url(/square.png)] bg-cover bg-center shrink-0 me-3 mt-4"></div>
               <div className="flex flex-col">
                 <Paragraph
                   title="Почему именно я?"
@@ -178,7 +178,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="px-10">
+            <div className="px-5">
               <ImageCarouselSecond />
             </div>
           </div>
