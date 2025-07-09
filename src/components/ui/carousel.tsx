@@ -185,7 +185,7 @@ function CarouselPrevious({
       variant={variant}
       size={size}
       className={cn(
-        "sm:hidden block size-8 absolute rounded-full",
+        "size-8 absolute rounded-full",
         orientation === "horizontal"
           ? "top-1/2 -left-12 -translate-y-1/2"
           : "-top-12 left-1/2 -translate-x-1/2 rotate-90",
@@ -195,7 +195,7 @@ function CarouselPrevious({
       onClick={scrollPrev}
       {...props}
     >
-      <ArrowLeft className="size-15" />
+      <ArrowLeft className="sm:block hidden size-15" />
       <span className="sr-only">Previous slide</span>
     </Button>
   );
@@ -225,7 +225,7 @@ function CarouselNext({
       onClick={scrollNext}
       {...props}
     >
-      <ArrowRight className="size-15" />
+      <ArrowRight className="sm:block hidden size-15" />
       <span className="sr-only">Next slide</span>
     </Button>
   );
