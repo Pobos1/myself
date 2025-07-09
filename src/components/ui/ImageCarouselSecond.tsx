@@ -34,7 +34,7 @@ export default function ImageCarousel() {
               <CarouselItem key={i}>
                 <div className="flex items-center justify-center h-50">
                   <Image
-                    className="rounded-3xl m-auto"
+                    className="sm:rounded-xl rounded-3xl m-auto"
                     src={img.src}
                     alt={img.alt}
                     width={400}

@@ -5,7 +5,7 @@ import { Paragraph } from "@/shared/Paragraph";
 import { Servicevertical } from "@/shared/Servicesvertical";
 import { Verticaltabl } from "@/shared/verticaltabl";
 import ImageCarousel from "@/components/ui/ImageCarousel";
-import ImageCarouselSecond from "@/components/ImageCarouselSecond";
+import ImageCarouselSecond from "@/components/ui/ImageCarouselSecond";
 
 export default function Home() {
   return (
@@ -92,7 +92,10 @@ export default function Home() {
                 <p className="text-4xl  text-black pb-3">Контакты</p>
               </div>
               <ButtonWhite title="VK" link="https://vk.com/id543958430" />
-              <ButtonWhite title="Telegram" link="" />
+              <ButtonWhite
+                title="Telegram"
+                link="https://web.telegram.org/k/#@ksenkaplet"
+              />
             </div>
           </section>
         </div>
@@ -137,7 +140,7 @@ export default function Home() {
           </div>
           <div>
             <div className=" w-full h-80 bg-[url(/pletnevalong.png)] bg-cover bg-center shrink-0  mt-4"></div>
-            <div className="px-12 py-7 bg-black">
+            <div className="px-6 py-7 bg-black">
               <p className="text-xl pb-2 font-semibold text-white">
                 Ксения Плетнёва
               </p>
@@ -150,7 +153,7 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div id="smservices" className="px-12">
+          <div id="smservices" className="px-6">
             <div className="flex items-center justify-center pt-12">
               <p className="text-4xl  text-black">Услуги</p>
             </div>
@@ -167,7 +170,7 @@ export default function Home() {
               <ImageCarousel />
             </div>
             <div className=" flex flex-row ">
-              <div className="rounded-xl w-35 h-40 bg-[url(/square.png)] bg-cover bg-center shrink-0 me-6 mt-4"></div>
+              <div className="rounded-xl w-35 h-40 bg-[url(/square.png)] bg-cover bg-center shrink-0 me-3 mt-4"></div>
               <div className="flex flex-col">
                 <Paragraph
                   title="Почему именно я?"
