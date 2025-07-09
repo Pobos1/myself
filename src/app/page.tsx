@@ -174,7 +174,7 @@ export default function Home() {
               <div className="flex flex-col">
                 <Paragraph
                   title="Почему именно я?"
-                  description="Я создаю праздники, основываясь на своем мировосприятии и запросах клиентов. Моя энергия и драйв заряжают всех, при этом я остаюсь интеллигентным и уважаю людей и свою работу."
+                  description="Я создаю праздники, основываясь на своем мировосприятии и запросах клиентов. Моя энергия и драйв заряжают всех, при этом я остаюсь интеллигентной и уважаю людей и свою работу."
                 />
               </div>
             </div>
@@ -189,10 +189,7 @@ export default function Home() {
               <p className="text-4xl  text-black pb-3">Контакты</p>
             </div>
             <ButtonWhite title="VK" link="https://vk.com/id543958430" />
-            <ButtonWhite
-              title="Telegram"
-              link="https://web.telegram.org/k/#@ksenkaplet"
-            />
+            <ButtonWhite title="Telegram" link="https://t.me/@ksenkaplet" />
           </div>
         </section>
       </div>
