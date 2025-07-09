@@ -4,42 +4,10 @@ import { Horizontaltabl } from "@/shared/horizontaltabl";
 import { Paragraph } from "@/shared/Paragraph";
 import { Servicevertical } from "@/shared/Servicesvertical";
 import { Verticaltabl } from "@/shared/verticaltabl";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import Image from "next/image";
+import ImageCarousel from "@/components/ui/ImageCarousel";
+import ImageCarouselSecond from "@/components/ImageCarouselSecond";
 
 export default function Home() {
-  const images = [
-    { src: "/swiper1/image1.jpg", alt: "Изображение " },
-    { src: "/swiper1/image2.jpg", alt: "Изображение " },
-    { src: "/swiper1/image3.jpg", alt: "Изображение " },
-    { src: "/swiper1/image4.jpg", alt: "Изображение " },
-    { src: "/swiper1/image5.jpg", alt: "Изображение " },
-    { src: "/swiper1/image6.jpg", alt: "Изображение " },
-    { src: "/swiper1/image7.jpg", alt: "Изображение " },
-    { src: "/swiper1/image8.jpg", alt: "Изображение " },
-    { src: "/swiper1/image9.jpg", alt: "Изображение " },
-    { src: "/swiper1/image10.jpg", alt: "Изображение " },
-    { src: "/swiper1/image11.jpg", alt: "Изображение " },
-    { src: "/swiper1/image12.jpg", alt: "Изображение " },
-    { src: "/swiper1/image13.jpg", alt: "Изображение " },
-    { src: "/swiper1/image14.jpg", alt: "Изображение " },
-    { src: "/swiper1/image15.jpg", alt: "Изображение " },
-    { src: "/swiper1/image16.jpg", alt: "Изображение " },
-    { src: "/swiper1/image17.jpg", alt: "Изображение " },
-    { src: "/swiper1/image18.jpg", alt: "Изображение " },
-    { src: "/swiper1/image19.jpg", alt: "Изображение " },
-    { src: "/swiper1/image20.jpg", alt: "Изображение " },
-    { src: "/swiper1/image21.jpg", alt: "Изображение " },
-    { src: "/swiper1/image22.jpg", alt: "Изображение " },
-    { src: "/swiper1/image23.jpg", alt: "Изображение " },
-  ];
-
   return (
     <div>
       {/* Div, который отображается на больших экранах */}
@@ -102,25 +70,7 @@ export default function Home() {
               />
 
               <div className="px-10">
-                <Carousel className="">
-                  <CarouselContent>
-                    {images.map((images, index) => (
-                      <CarouselItem key={index}>
-                        <div className="py-20 ">
-                          <Image
-                            className="rounded-2xl mx-auto"
-                            src={images.src}
-                            alt={images.alt}
-                            width={400}
-                            height={200}
-                          />
-                        </div>
-                      </CarouselItem>
-                    ))}
-                  </CarouselContent>
-                  <CarouselPrevious />
-                  <CarouselNext />
-                </Carousel>
+                <ImageCarousel />
               </div>
               <div className="pt-12 flex flex-row px-20">
                 <div className="rounded-xl w-1/3 h-50 bg-[url(/square.png)] bg-cover bg-center shrink-0 me-6 mt-4"></div>
@@ -130,6 +80,9 @@ export default function Home() {
                     description="Я создаю праздники, основываясь на своем мировосприятии и запросах клиентов. Моя энергия и драйв заряжают всех, при этом я остаюсь интеллигентным и уважаю людей и свою работу."
                   />
                 </div>
+              </div>
+              <div className="px-10">
+                <ImageCarouselSecond />
               </div>
             </div>
           </section>
@@ -211,27 +164,9 @@ export default function Home() {
             />
 
             <div className="px-10">
-              <Carousel className="">
-                <CarouselContent>
-                  {images.map((images, index) => (
-                    <CarouselItem key={index}>
-                      <div className="py-20 ">
-                        <Image
-                          className="rounded-2xl mx-auto"
-                          src={images.src}
-                          alt={images.alt}
-                          width={300}
-                          height={200}
-                        />
-                      </div>
-                    </CarouselItem>
-                  ))}
-                </CarouselContent>
-                <CarouselPrevious />
-                <CarouselNext />
-              </Carousel>
+              <ImageCarousel />
             </div>
-            <div className="pt-12 flex flex-row ">
+            <div className=" flex flex-row ">
               <div className="rounded-xl w-35 h-40 bg-[url(/square.png)] bg-cover bg-center shrink-0 me-6 mt-4"></div>
               <div className="flex flex-col">
                 <Paragraph
@@ -240,15 +175,21 @@ export default function Home() {
                 />
               </div>
             </div>
+            <div className="px-10">
+              <ImageCarouselSecond />
+            </div>
           </div>
         </section>
         <section>
           <div id="smcontacts" className="px-12 pb-12">
-            <div className="flex items-center justify-center pt-12">
+            <div className="flex items-center justify-center">
               <p className="text-4xl  text-black pb-3">Контакты</p>
             </div>
             <ButtonWhite title="VK" link="https://vk.com/id543958430" />
-            <ButtonWhite title="Telegram" link="" />
+            <ButtonWhite
+              title="Telegram"
+              link="https://web.telegram.org/k/#@ksenkaplet"
+            />
           </div>
         </section>
       </div>
