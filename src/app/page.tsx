@@ -62,11 +62,11 @@ export default function Home() {
               </div>
               <Horizontaltabl
                 title="Свадьба"
-                description="от 35000р"
+                description="от 40000р"
                 title2="Выпускной"
-                description2="от 25000р"
+                description2="от 30000р"
                 title3="День рождения"
-                description3="от 15000р"
+                description3="от 20000р"
               />
 
               <div className="px-10">
@@ -77,7 +77,7 @@ export default function Home() {
                 <div className="flex flex-col my-auto ">
                   <Paragraph
                     title="Почему именно я?"
-                    description="Я создаю праздники, основываясь на своем мировосприятии и запросах клиентов. Моя энергия и драйв заряжают всех, при этом я остаюсь интеллигентным и уважаю людей и свою работу."
+                    description="Я создаю праздники, основываясь на своем мировосприятии и запросах клиентов. Моя энергия и драйв заряжают всех, при этом я остаюсь интеллигентной и уважаю людей."
                   />
                 </div>
               </div>
@@ -159,11 +159,11 @@ export default function Home() {
             </div>
             <Servicevertical
               title="Свадьба"
-              description="от 35000р"
+              description="от 40000р"
               title2="Выпускной"
-              description2="от 25000р"
+              description2="от 30000р"
               title3="День рождения"
-              description3="от 15000р"
+              description3="от 20000р"
             />
 
             <div className="px-10">
@@ -174,7 +174,7 @@ export default function Home() {
               <div className="flex flex-col">
                 <Paragraph
                   title="Почему именно я?"
-                  description="Я создаю праздники, основываясь на своем мировосприятии и запросах клиентов. Моя энергия и драйв заряжают всех, при этом я остаюсь интеллигентной и уважаю людей и свою работу."
+                  description="Я создаю праздники, основываясь на своем мировосприятии и запросах клиентов. Моя энергия и драйв заряжают всех, при этом я остаюсь интеллигентной и уважаю людей."
                 />
               </div>
             </div>

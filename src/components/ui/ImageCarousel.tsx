@@ -35,6 +35,17 @@ const images = [
   { src: "/swiper1/image21.jpg", alt: "Изображение " },
   { src: "/swiper1/image22.jpg", alt: "Изображение " },
   { src: "/swiper1/image23.jpg", alt: "Изображение " },
+  { src: "/swiper1/image24.jpg", alt: "Изображение " },
+  { src: "/swiper1/image25.jpg", alt: "Изображение " },
+  { src: "/swiper1/image26.jpg", alt: "Изображение " },
+  { src: "/swiper1/image27.jpg", alt: "Изображение " },
+  { src: "/swiper1/image28.jpg", alt: "Изображение " },
+  { src: "/swiper1/image29.jpg", alt: "Изображение " },
+  { src: "/swiper1/image30.jpg", alt: "Изображение " },
+  { src: "/swiper1/image31.jpg", alt: "Изображение " },
+  { src: "/swiper1/image32.jpg", alt: "Изображение " },
+  { src: "/swiper1/image33.jpg", alt: "Изображение " },
+  { src: "/swiper1/image34.jpg", alt: "Изображение " },
 ];
 
 export default function ImageCarousel() {
@@ -62,7 +73,7 @@ export default function ImageCarousel() {
               <CarouselItem key={i} onClick={() => openModal(img.src)}>
                 <div className="py-20 ">
                   <Image
-                    className="rounded-2xl mx-auto"
+                    className="rounded-2xl mx-auto w-96 h-72 object-cover"
                     src={img.src}
                     alt={img.alt}
                     width={400}

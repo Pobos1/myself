@@ -20,6 +20,8 @@ const images = [
   { src: "/swiper2/image7.png", alt: "Изображение " },
   { src: "/swiper2/image8.png", alt: "Изображение " },
   { src: "/swiper2/image9.png", alt: "Изображение " },
+  { src: "/swiper2/image10.png", alt: "Изображение " },
+  { src: "/swiper2/image11.png", alt: "Изображение " },
 ];
 
 export default function ImageCarousel() {
