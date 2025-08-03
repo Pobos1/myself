@@ -71,7 +71,7 @@ export default function ImageCarousel() {
           <CarouselContent>
             {images.map((img, i) => (
               <CarouselItem key={i} onClick={() => openModal(img.src)}>
-                <div className="py-20 ">
+                <div className="py-10 ">
                   <Image
                     className="rounded-2xl mx-auto w-96 h-72 object-cover"
                     src={img.src}
