@@ -45,11 +45,11 @@ export default function Home() {
           <section>
             <div className="flex pt-6">
               <div className="rounded-s-xl w-1/2 h-80 bg-[url(/pletnevalong.png)] bg-cover bg-center shrink-0 "></div>
-              <div className="rounded-e-xl pe-20 ps-6 py-7 bg-black flex flex-col justify-center">
-                <p className="text-3xl pb-5 font-semibold text-white">
+              <div className="rounded-e-xl pe-20 ps-6 py-4 bg-black flex flex-col justify-center">
+                <p className="text-3xl pb-2 font-semibold text-white">
                   Ксения Плетнёва
                 </p>
-                <p className="text-md text-white">
+                <p className="text-xl text-white">
                   Всю свою жизнь я пою. И теперь я не только исполнительница, но
                   и автор. Мои песни есть на популярных музыкальных площадках, а
                   одну из них крутят по радио
@@ -169,8 +169,8 @@ export default function Home() {
             <div className="px-10">
               <ImageCarousel />
             </div>
-            <div className=" flex flex-row ">
-              <div className="rounded-xl w-35 h-50 bg-[url(/square.png)] bg-cover bg-center shrink-0 me-3 mt-4"></div>
+            <div className=" mt-10 ">
+              <div className="rounded-xl w-full h-50 bg-[url(/square.png)] bg-cover bg-center shrink-0 "></div>
               <div className="flex flex-col">
                 <Paragraph
                   title="Почему именно я?"
