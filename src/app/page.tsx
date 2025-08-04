@@ -178,7 +178,7 @@ export default function Home() {
                 />
               </div>
             </div>
-            <div className="px-5">
+            <div className="px-10">
               <ImageCarouselSecond />
             </div>
           </div>
@@ -189,7 +189,7 @@ export default function Home() {
               <p className="text-4xl  text-black pb-3">Контакты</p>
             </div>
             <ButtonWhite title="VK" link="https://vk.com/id543958430" />
-            <ButtonWhite title="Telegram" link="https://t.me/@ksenkaplet" />
+            <ButtonWhite title="Telegram" link="https://t.me/ksenkaplet" />
           </div>
         </section>
       </div>
